@@ -1,0 +1,220 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+.background{
+	background-color: darkslategray;
+	width: 100%;
+	height: 100%;
+	background-size:cover;
+	background-position: relative;
+	overflow-y: auto;
+	background-repeat: no-repeat;
+	object-fit: scale-down;
+
+}
+
+
+.nav{
+	width: 250px;
+	height: auto;
+	position: absolute;
+	top: 10%;
+	left: 10em;
+	float: left;
+
+}
+.nav a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	width: 100%;
+	display: inline-block;
+	height: 90%;
+	margin: 5px 0px;
+	float: left;
+	background-color: white;
+	color: black;
+	line-height: 60px;
+	text-align: center;
+	border-top-right-radius: 45px;
+	border-top-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+	border-bottom-left-radius: 45px;
+	transition:300ms ;
+
+
+}
+
+a.active,.nav a:hover{
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+.home h1{
+	color: white;
+	font-size: 4.2em;
+	margin-left:16em ;
+	margin-top: 7em;
+    border-bottom: 1px solid white;
+}
+.home h3{
+	color: white;
+	margin-left: 46em;
+	font-size: 2em;
+	opacity: 0.6;
+}
+
+.back{
+	background-color: darkslategray;
+	width: 100%;
+	height: 100%;
+	background-size:cover;
+	background-position: relative;
+	overflow-y: auto;
+	background-repeat: no-repeat;
+	}
+.aboutme{
+	margin-top: 0.5em;
+	text-align: center;
+	font-size: 5em;
+	color: white;
+	font-family: cursive;
+    margin-left: 10em;
+    border-bottom: 1px solid white;
+}
+.about{
+    position: absolute;
+    right: 0;
+    color: white;
+    font-family: cursive;
+    padding: 0 60px;
+    float: right;
+    margin-left: 35em;
+    margin-top: 5em;
+}
+.about h1{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    margin-left: 20em;
+}
+
+.project{
+    margin-top: 0.5em;
+	text-align: center;
+	font-size: 4em;
+	color: white;
+	font-family: cursive;
+    margin-left: 10em;
+    border-bottom: 1px solid white;
+}
+
+.pro{
+	margin-top: 6em;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	font-family: fangsong;
+    margin-left: 35em;
+    
+   }
+ .field{
+ 	margin-left: 10em;
+ 	margin-right: 10em;
+ 	border:solid;
+ 	padding: 10px;
+
+ }
+ .skills{
+ 	margin-top: 0.5em;
+	text-align: center;
+	font-size: 4em;
+	color: white;
+	font-family: cursive;
+    margin-left: 10em;
+    border-bottom: 1px solid white;
+ }
+.sk{
+	margin-top: 4em;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	font-family: fangsong;
+    margin-left: 35em;
+}
+
+.achie{
+
+    margin-top: 0.5em;
+	text-align: center;
+	font-size: 4em;
+	color: white;
+	font-family: cursive;
+    margin-left: 10em;
+    border-bottom: 1px solid white;
+}
+.course{
+	margin-top: 6em;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	font-family: fangsong;
+    margin-left: 35em;
+}
+
+.ph{
+    position: absolute;
+    right: 0;
+    color: white;
+    font-family: century gothic;
+    padding: 0 60px;
+    float: right;
+    margin-left: 20em;
+    margin-top: 0em;
+ }
+
+.bor{
+	border: 5px solid yellow;
+}
+.con{
+	float: right;
+
+}
+.con h1{
+	font-size: 50px;
+	float: right;
+	margin-top: 1em;
+	color: white;
+	font-family: cursive;
+	margin-right: 500px;
+	font-style: oblique;
+}
+.con h2{
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+}
+.con h3{
+	color: yellow;
+	font-size: 20px;
+	font-family: cursive;
+}
+.con h4{
+	color: white;
+	font-size: 30px;
+	font-family: monospace;
+	margin-top: 2em;
+	text-align: center;
+	border-top: 1px solid white;
+}
